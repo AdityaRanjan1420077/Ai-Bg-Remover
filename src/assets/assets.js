@@ -1,8 +1,109 @@
-import logo from './logo.png';
-import video_banner from './home-page-banner.mp4'
+import logo from "./logo.png";
+import video_banner from "./home-page-banner.mp4";
+import people from "./people.png";
+import people_org from "./people-org.png";
+
 
 export const assets = {
     logo,
-    video_banner
+    video_banner,
+    people,
+    people_org,
+
 
 }
+
+export const plans = [
+    {
+        id:"Basic",
+        name: "Basic Package",
+        price:499,
+        credits:"100 credits",
+        description:"Best for personal use",
+        popular:false
+    },
+    {
+        id:"Premium",
+        name: "Premium Package",
+        price:899,
+        credits:"250 credits",
+        description:"Best for business use",
+        popular:true
+    },
+    {
+        id:"Ultimate",
+        name: "Ultimate Package",
+        price:1499,
+        credits:"1000 credits",
+        description:"Best for entreprise use",
+        popular:false
+    },
+];
+export const testimonials = [
+    {
+        id: 1,
+        quote:
+            "The AI quality is outstanding — easily the most accurate background remover we’ve ever worked with.",
+        author: "Anthony Walker",
+        handle: "@webarchitect",
+    },
+    {
+        id: 2,
+        quote:
+            "remove.bg is miles ahead of every alternative tool  out there. It made our workflow faster, smoother, and incredibly simple.",
+        author: "Sarah Johnson",
+        handle: "@techlead_sarah",
+    },
+    {
+        id: 3,
+        quote:
+            "The precision is unbelievable. It handled tricky hair strands perfectly without making the image look rough or over-edited.",
+        author: "Michael Chen",
+        handle: "@coding_newbie",
+    },
+];
+
+export const FOOTER_CONSTANTS = [
+    {
+        url:"https://www.facebook.com",
+        logo:"https://img.icons8.com/fluent/30/000000/facebook-new.png"
+    },
+    {
+        url:"https://www.linkedin.com",
+        logo:"https://img.icons8.com/fluent/30/000000/linkedin-2.png"
+    },
+    {
+        url:"https://www.instagram.com",
+        logo:"https://img.icons8.com/fluent/30/000000/instagram-new.png"
+    },
+    {
+        url:"https://www.twitter.com",
+        logo:"https://img.icons8.com/fluent/30/000000/twitter.png"
+    },
+]
+
+
+export const categories = ["People", "Products", "Animals", "Cars", "Graphics"]
+export const steps = [
+    {
+        step: "Step 1",
+        title: "Select an image",
+        description: `First, choose the image you want to remove background from by clicking on
+“Start from a photo”. Your image format can be PNG or JPG.
+We support all image dimensions.`,
+    },
+    {
+        step: "Step 2",
+        title: "Let magic remove the background",
+        description: `Our tool automatically removes the background from your image.
+Next, you can choose a background color.
+Our most popular options are white and transparent backgrounds,
+but you can pick any color you like.`,
+    },
+    {
+        step: "Step 3",
+        title: "Download your image",
+        description: `After selecting a new background color, download your photo and you’re done!
+You can also save your picture in the Photoroom App by creating an account.`,
+    },
+];

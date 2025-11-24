@@ -7,3 +7,31 @@ body {
     font-size: 16px;       /* Increase base size */
     font-weight: 400;      /* Normal weight */
 }
+.slider {
+    -webkit-appearance: none;
+    height: 100%;
+    background: transparent;
+}
+.slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 30px;
+    min-height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../src/assets/slide_icon.svg");
+}
+
+
+/*For firefox*/
+.slider::-moz-range-thumb{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    background-color: transparent;
+    background-image: url("../src/assets/slide_icon.svg");
+}
