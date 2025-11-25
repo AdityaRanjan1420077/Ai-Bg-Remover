@@ -2,13 +2,16 @@ import logo from "./logo.png";
 import video_banner from "./home-page-banner.mp4";
 import people from "./people.png";
 import people_org from "./people-org.png";
-
+import credit from "./credit.png";
+import dollar from "./dollar.png";
 
 export const assets = {
     logo,
     video_banner,
     people,
     people_org,
+    credit,
+    dollar
 
 
 }

@@ -1,5 +1,6 @@
 import React from "react";
-import { assets } from "../assets/assets.js";   // Import assets
+import { assets } from "../assets/assets.js";// Import assets
+import { toast } from "react-hot-toast";
 
 const Header = () => {
     return (
@@ -37,6 +38,7 @@ const Header = () => {
                     >
                         Upload Your Image
                     </label>
+                    {/*<button onClick={()=>toast.success("Toast working")}>Test Toast Notification</button>*/}
                 </div>
             </div>
 
