@@ -26,7 +26,7 @@ This project provides an end-to-end background removal web app with authenticati
 └── pom.xml
 
 ## 🎯 Tech Stack
-# Frontend
+### Frontend
 - ⚛️ React (Vite)
 - 🎨 Tailwind CSS
 - 🔐 Clerk Authentication
@@ -35,7 +35,7 @@ This project provides an end-to-end background removal web app with authenticati
 - 🔥 React Hot Toast
 - 🎯Lucide Icons
 
-# Backend
+### Backend
 - 🌱 Spring Boot 3
 - 🛡️ Spring Security
 - 🗄️ MySQL
