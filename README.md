@@ -14,7 +14,18 @@ This project provides an end-to-end background removal web app with authenticati
 - MySQL database integration
 ## 📁 Project Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+/
+├── frontend/
+│   ├── src/
+│   ├── package.json
+│   ├── vite.config.js
+│   └── index.html
+│
+└── backend/
+    ├── src/main/java/com/aditya/removebg/
+    ├── src/main/resources/application.properties
+    └── pom.xml
+
 
 ## Expanding the ESLint configuration
 
