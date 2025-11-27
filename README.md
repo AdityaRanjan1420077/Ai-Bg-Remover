@@ -1,8 +1,8 @@
 # 🖼️ RemoveBG – AI Background Remover
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Full-Stack Project using React + Vite (Frontend) and Spring Boot (Backend)
 
-Currently, two official plugins are available:
+This project provides an end-to-end background removal web app with authentication using Clerk, payments via Razorpay, and credit-based usage.
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
