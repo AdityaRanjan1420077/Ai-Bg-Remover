@@ -91,8 +91,10 @@ This project provides an end-to-end background removal web app with authenticati
 ## 🆕 Signup Page
 <img width="1917" height="934" alt="image" src="https://github.com/user-attachments/assets/b5124b3c-93a2-4caa-aa4c-c90d28c674f9" />
 
-
-
-
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💡 How It Works
+1. User logs in with Clerk
+2. User uploads an image
+3. Backend sends image to AI model for background removal
+4. Output returned as base64
+5. Credits get deducted
+6. Razorpay used for adding more credits
