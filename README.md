@@ -48,8 +48,14 @@ This project provides an end-to-end background removal web app with authenticati
 🔹 User
 |    Method    |   Endpoint       |   Description               |
 |--------------|------------------|-----------------------------|
-|  GET         | /api/user/me     | Get logged-in user          |
+| GET          | /api/user/me     | Get logged-in user          |
 | POST         | /api/user/create | Create user (auto on login) |
+
+🔹 Payment
+|    Method    |   Endpoint          |   Description               |
+|--------------|---------------------|-----------------------------|
+| POST         | /api/payment/order  | Create Razorpay order       |
+| POST         | /api/payment/verify | Verify payment signature    |
 
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
