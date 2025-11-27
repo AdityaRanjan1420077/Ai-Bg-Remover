@@ -13,7 +13,6 @@ This project provides an end-to-end background removal web app with authenticati
 - 🛠️ Spring Boot REST API
 - 🗄️ MySQL database integration
 ## 📁 Project Structure
-
 /
 ├── frontend/
 │ ├── src/
@@ -26,6 +25,24 @@ This project provides an end-to-end background removal web app with authenticati
 ├── src/main/resources/application.properties
 └── pom.xml
 
-## Expanding the ESLint configuration
+## 🎯 Tech Stack
+# Frontend
+- ⚛️ React (Vite)
+- 🎨 Tailwind CSS
+- 🔐 Clerk Authentication
+- 🔄 Axios
+- 🛣️ React Router
+- 🔥 React Hot Toast
+- 🎯Lucide Icons
+
+# Backend
+- 🌱 Spring Boot 3
+- 🛡️ Spring Security
+- 🗄️ MySQL
+- 🧩 Spring Data JPA
+- 💳 Razorpay SDK
+- 🔑 JWT Validation
+- 🖼️ Multipart image processing
+
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
