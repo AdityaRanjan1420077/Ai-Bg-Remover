@@ -63,7 +63,8 @@ This project provides an end-to-end background removal web app with authenticati
 | POST         | /api/remove-background  | Remove image background (1 credit used)      |
 
 
-##🧪 Background Removal Logic (Backend)
+
+## 🧪 Background Removal Logic (Backend)
 - Accepts a MultipartFile
 - Processes with AI model / external API (your service)
 - Returns Base64 string
