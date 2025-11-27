@@ -1,3 +1,5 @@
+<img width="1888" height="921" alt="image" src="https://github.com/user-attachments/assets/ae0852ce-c3a9-4814-bee9-c978e0e59b4f" />
+
 # 🖼️ RemoveBG – AI Background Remover
 
 Full-Stack Project using React + Vite (Frontend) and Spring Boot (Backend)
