@@ -4,9 +4,14 @@ Full-Stack Project using React + Vite (Frontend) and Spring Boot (Backend)
 
 This project provides an end-to-end background removal web app with authentication using Clerk, payments via Razorpay, and credit-based usage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
+#🚀 Features
+- AI-powered background removal
+- Clerk authentication (Google/Email login)
+- Razorpay payment gateway
+- Credit-based system
+- Responsive UI using Tailwind CSS
+- Spring Boot REST API
+- MySQL database integration
 ## React Compiler
 
 The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
