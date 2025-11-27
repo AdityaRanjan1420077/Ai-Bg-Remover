@@ -86,6 +86,10 @@ This project provides an end-to-end background removal web app with authenticati
 ## 🔐 Login Page
 <img width="1919" height="922" alt="image" src="https://github.com/user-attachments/assets/d25ca7e5-0e68-46ad-9efb-f707c13d66a1" />
 
+## 🆕 Signup Page
+<img width="1917" height="934" alt="image" src="https://github.com/user-attachments/assets/b5124b3c-93a2-4caa-aa4c-c90d28c674f9" />
+
+
 
 
 
