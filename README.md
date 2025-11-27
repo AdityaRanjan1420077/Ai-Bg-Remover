@@ -16,16 +16,15 @@ This project provides an end-to-end background removal web app with authenticati
 
 /
 ├── frontend/
-│   ├── src/
-│   ├── package.json
-│   ├── vite.config.js
-│   └── index.html
+│ ├── src/
+│ ├── package.json
+│ ├── vite.config.js
+│ └── index.html
 │
 └── backend/
-    ├── src/main/java/com/aditya/removebg/
-    ├── src/main/resources/application.properties
-    └── pom.xml
-
+├── src/main/java/com/aditya/removebg/
+├── src/main/resources/application.properties
+└── pom.xml
 
 ## Expanding the ESLint configuration
 
