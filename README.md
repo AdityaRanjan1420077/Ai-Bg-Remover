@@ -83,6 +83,10 @@ This project provides an end-to-end background removal web app with authenticati
 7. Backend verifies signature
 8. Credits added to user
 
+## 🔐 Login Page
+<img width="1919" height="922" alt="image" src="https://github.com/user-attachments/assets/d25ca7e5-0e68-46ad-9efb-f707c13d66a1" />
+
+
 
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
