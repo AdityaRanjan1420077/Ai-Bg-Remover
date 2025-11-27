@@ -5,13 +5,13 @@ Full-Stack Project using React + Vite (Frontend) and Spring Boot (Backend)
 This project provides an end-to-end background removal web app with authentication using Clerk, payments via Razorpay, and credit-based usage.
 
 ## 🚀 Features
-- AI-powered background removal
-- Clerk authentication (Google/Email login)
-- Razorpay payment gateway
-- Credit-based system
-- Responsive UI using Tailwind CSS
-- Spring Boot REST API
-- MySQL database integration
+- 🎨 AI-powered background removal
+- 🔐 Clerk authentication (Google/Email login)
+- 💳 Razorpay payment gateway
+- 🪙Credit-based system
+- 📱 Responsive UI using Tailwind CSS
+- 🛠️ Spring Boot REST API
+- 🗄️ MySQL database integration
 ## 📁 Project Structure
 
 /
