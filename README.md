@@ -45,7 +45,7 @@ This project provides an end-to-end background removal web app with authenticati
 - 🖼️ Multipart image processing
 
 ## 🔌 API Endpoints
-####🔹 User
+###🔹 User
 |    Method    |   Endpoint       |   Description               |
 |--------------|------------------|-----------------------------|
 |  GET         | /api/user/me     | Get logged-in user          |
