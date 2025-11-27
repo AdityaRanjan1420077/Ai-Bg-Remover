@@ -73,7 +73,15 @@ This project provides an end-to-end background removal web app with authenticati
 ## 💼 Payment Flow 
 1. User selects credit plan
 2. Frontend calls POST /payment/order
-3. 
+3. Razorpay order is created
+4. Razorpay checkout popup opens
+5. On success, Razorpay returns:
+   - payment_id
+   - order_id
+   - signature
+6. Frontend sends these to backend
+7. Backend verifies signature
+8. Credits added to user
 
 
 
