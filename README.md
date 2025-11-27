@@ -12,7 +12,7 @@ This project provides an end-to-end background removal web app with authenticati
 - Responsive UI using Tailwind CSS
 - Spring Boot REST API
 - MySQL database integration
-## React Compiler
+## 📁 Project Structure
 
 The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
